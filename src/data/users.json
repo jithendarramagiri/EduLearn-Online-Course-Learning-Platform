@@ -34,5 +34,15 @@
     "password": "Ramagiri@1810",
     "role": "student",
     "createdAt": "2026-09-06T04:59:16.136Z"
+  },
+  {
+    "id": 1788674278954,
+    "name": "jithendarramgiri1",
+    "email": "jithendarramgiri1@gmail.com",
+    "password": "Ramagiri@1810",
+    "role": "student",
+    "createdAt": "2026-09-06T05:57:58.954Z",
+    "lastLogin": "2026-09-06T05:57:58.954Z",
+    "loginCount": 1
   }
 ]

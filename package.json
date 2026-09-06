@@ -5,16 +5,24 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently -n \"API,VITE\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
+
     "client": "vite",
-    "server": "node src/server/index.js",
-    "start": "npm run dev",
-    "build": "vite build",
+
+
+    "server": "json-server --watch db/db.json --host 0.0.0.0 --port 5000",
+
+
+    "build": "vite build && mkdir -p src/server/public && cp -r dist/* src/server/public/",
+    "start": "json-server db/db.json --host 0.0.0.0 --port $PORT",
+
+
     "lint": "oxlint",
     "preview": "vite preview"
   },
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "json-server": "^0.17.4",
     "lucide-react": "^1.40.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
