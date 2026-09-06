@@ -1,0 +1,8 @@
+@import './Login.css';
+
+.password-hint {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  margin-left: 0.25rem;
+}

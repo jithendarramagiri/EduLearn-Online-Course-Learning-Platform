@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Admin User",
+    "email": "admin@edulearn.com",
+    "password": "admin123",
+    "role": "admin",
+    "lastLogin": "2026-09-06T05:01:22.584Z",
+    "loginCount": 1
+  },
+  {
+    "id": 2,
+    "name": "Student Demo",
+    "email": "student@edulearn.com",
+    "password": "student123",
+    "role": "student",
+    "lastLogin": "2026-09-05T19:23:04.886Z",
+    "loginCount": 1
+  },
+  {
+    "id": 1788636804462,
+    "name": "admin",
+    "email": "admin@camerastore.com",
+    "password": "123456",
+    "role": "admin",
+    "createdAt": "2026-09-05T19:33:24.462Z",
+    "lastLogin": "2026-09-05T19:56:31.719Z",
+    "loginCount": 7
+  },
+  {
+    "id": 1788670756136,
+    "name": "Jithendar Ramagiri",
+    "email": "jithendarramagiri1@gmail.com",
+    "password": "Ramagiri@1810",
+    "role": "student",
+    "createdAt": "2026-09-06T04:59:16.136Z"
+  }
+]
