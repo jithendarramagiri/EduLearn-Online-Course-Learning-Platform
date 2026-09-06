@@ -2,7 +2,7 @@ import { coursesData as initialCoursesData } from '../data/courses';
 
 // Use relative /api (proxied by Vite) or direct port 5000
 const API_BASE = import.meta.env.VITE_API_URL || '/api';
-const DIRECT_BACKEND = 'http://localhost:5000/api';
+const DIRECT_BACKEND = 'https://edulearn-online-course-learning-platform-3zaq.onrender.com';
 
 const getStoredCourses = () => {
   try {
