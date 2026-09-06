@@ -2,6 +2,9 @@
   "name": "edulearn---online-course-learning-platform",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+    "node": "22.x"
+  },
   "type": "module",
   "scripts": {
     "dev": "concurrently -n \"API,VITE\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
@@ -9,7 +12,7 @@
     "client": "vite",
 
     "server":  "node src/server/index.js",
-   "build": "vite build",
+   "build": "node_modules/vite/bin/vite.js build",
     "start": "node src/server/index.js",
 
 
